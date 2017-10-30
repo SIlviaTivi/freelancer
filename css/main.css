@@ -1,3 +1,135 @@
-/*
- * Estilos de tu proyecto
- */
+
+.navbar {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-decoration-color: none;
+    text-transform: uppercase;
+    border: none;
+    background: #2c3e50;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-brand{
+padding-top: 1.5rem;
+font-size: 1.5rem;
+color: #ffffff;
+text-decoration: none;
+
+}
+ .nav-item{
+  display: inline-block;
+  justify-content: center;
+}
+.navbar .container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+
+.nav-link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*header*/
+
+.masthead .container{
+  display: inline-block;
+
+}
+
+.masthead {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
+    margin: 0;
+}
+
+.masthead img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .intro-text{
+    display: block;
+  }
+
+.masthead .intro-text .name {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+}
+.masthead .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.icon-star::after{
+  content: '';
+  border-top: 5px solid white;
+  display: inline-block;
+  width: 100px;
+  margin: 5px;
+}
+
+.icon-star::before{
+  content: '';
+  border-top: 5px solid white;
+  display: inline-block;
+  width: 100px;
+  margin: 5px;
+}
+.icon-star{
+  font-size: 30px;
+}
+
+.intro-text .skills {
+  font-family: 'Montserrat',sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/*seccion portfolio*/
+
+.portfolio .icon-star::after,
+.portfolio .icon-star::before{
+  border-top: 5px solid #2c3e50;}
+.portfolio .icon-star{
+color: #2c3e50;
+}
+.portfolio .container{
+      max-width: 600px;
+      width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+.text-center{
+  font-family: 'Montserrat',serif;
+    font-size: 2em;
+    color: #2c3e50;
+
+}
+.row .portfolio-item img{
+  display: inline;
+  width: 30%;
+  height: 30%;
+ margin: 1%;
+}
+
+.row .portfolio-item{
+  display: inline;
+}
+
+/* seccion ABOUT */
