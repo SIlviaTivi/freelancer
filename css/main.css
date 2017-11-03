@@ -1,4 +1,8 @@
-
+body{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
 .navbar {
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
@@ -100,12 +104,14 @@ text-decoration: none;
 }
 
 /*seccion portfolio*/
-
+.portfolio{
+   color: #2c3e50;
+}
 .portfolio .icon-star::after,
 .portfolio .icon-star::before{
   border-top: 5px solid #2c3e50;}
 .portfolio .icon-star{
-color: #2c3e50;
+ color: #2c3e50;
 }
 .portfolio .container{
       max-width: 600px;
@@ -118,7 +124,7 @@ color: #2c3e50;
 .text-center{
   font-family: 'Montserrat',serif;
     font-size: 2em;
-    color: #2c3e50;
+   color: inherit;
 
 }
 .row .portfolio-item img{
@@ -133,3 +139,49 @@ color: #2c3e50;
 }
 
 /* seccion ABOUT */
+
+.about{
+  background: #18bc9c;
+  color: white;
+  justify-content: center;
+ text-align: center;
+   font-family: 'Montserrat',serif;
+}
+
+.about .icon-star::after,
+.about .icon-star::before{
+  border-top: 5px solid white;}
+.about .icon-star{
+  color: white;
+}
+
+.about .container{
+  width: 100%;
+  color: white;
+}
+
+.tex-cont{
+  width: 30%;
+  display: inline-block;
+  margin:1.5% 5%;
+  text-align: left;
+}
+.about button{
+  color: white;
+  background: none;
+  border-radius: 6.5px;
+}
+
+/*SECTION CONTACT ME*/
+
+.contact {
+  text-align: center;
+  justify-content: center;
+   color: #2c3e50;
+}
+.contact .icon-star::after,
+.contact .icon-star::before{
+  border-top: 5px solid #2c3e50;}
+.contact .icon-star{
+ color: #2c3e50;
+}
